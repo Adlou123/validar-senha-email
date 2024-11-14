@@ -1,0 +1,122 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 412px;
+    height: 917px;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-google{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-google p{
+    font-family: "Instrument Sans", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn-google img{
+    width: 37px;
+    height: 37px;
+}
+.email input{
+    width: 350px;
+    height: 65px;
+    border: solid 3px #000;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.email input::placeholder{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.senha input{
+    width: 350px;
+    height: 65px;
+    border: solid 3px #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.senha input::placeholder{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+
+.btn-login {
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.ou{
+    margin-top: 25px;
+    font-family: "Imprima", sans-serif;
+}
+
+.logon, .Redefinir{
+    margin-bottom: 10px;
+    color: #007FE6;
+    font-family: "Inter", sans-serif;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+.criar{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    color: #474747
+    
+}
+
+.#{
+    color: #007FE6;
+}
